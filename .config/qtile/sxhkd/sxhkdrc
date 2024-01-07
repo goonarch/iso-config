@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+#################################################################
+# KEYBOARD BINDINGS FOR ANY TWM
+#################################################################
+>>>>>>> 7c12b6d5a1b19f51a747d9961de7531191aee0ab
 #Rofi
 super + F12
     rofi -show drun
@@ -6,16 +12,30 @@ super + F12
 # SUPER + ... KEYS
 #################################################################
 
+<<<<<<< HEAD
 #code
+=======
+#Atom
+>>>>>>> 7c12b6d5a1b19f51a747d9961de7531191aee0ab
 super + e
     code
 #Browser
 super + w
     google-chrome-stable
 
+<<<<<<< HEAD
 #archlinux-logout
 super + x
     
+=======
+#Htop
+#super + h
+#    urxvt 'htop task manager' -e htop
+
+#archlinux-logout
+super + x
+    archlinux-logout
+>>>>>>> 7c12b6d5a1b19f51a747d9961de7531191aee0ab
 
 #Rofi theme selector
 super + r
@@ -25,18 +45,30 @@ super + r
 super + v
     pavucontrol
 
+<<<<<<< HEAD
 #kitty
 super + Return
     kitty
+=======
+#alacritty
+super + Return
+    alacritty
+>>>>>>> 7c12b6d5a1b19f51a747d9961de7531191aee0ab
 
 #Xkill
 super + Escape
     xkill
 
 #Keyboard dependent
+<<<<<<< HEAD
 #terminal
 super + KP_Enter
 	kitty
+=======
+#alacritty
+super + KP_Enter
+	alacritty
+>>>>>>> 7c12b6d5a1b19f51a747d9961de7531191aee0ab
 
 #################################################################
 # SUPER + SHIFT KEYS
@@ -50,7 +82,11 @@ super + shift + Return
 super + shift + s
 	pkill -USR1 -x sxhkd
 
+<<<<<<< HEAD
 Keyboard dependent
+=======
+#Keyboard dependent
+>>>>>>> 7c12b6d5a1b19f51a747d9961de7531191aee0ab
 #super + shift + KP_Enter
 #	thunar
 
@@ -59,6 +95,13 @@ Keyboard dependent
 # CONTROL + ALT KEYS
 #################################################################
 
+<<<<<<< HEAD
+=======
+#archlinux-tweak-tool
+ctrl + alt + e
+    archlinux-tweak-tool
+
+>>>>>>> 7c12b6d5a1b19f51a747d9961de7531191aee0ab
 #Pulse Audio Control
 ctrl + alt + u
      pavucontrol
@@ -67,11 +110,38 @@ ctrl + alt + u
 ctrl + alt + r
   rofi-theme-selector
 
+<<<<<<< HEAD
+=======
+#Spotify
+ctrl + alt + s
+   spotify
+
+#Xfce4-appfinder
+ctrl + alt + a
+    xfce4-appfinder
+
+
+#Keyboard dependent
+#alacritty
+#ctrl + alt + KP_Enter
+#     alacritty
+
+#Xcfe4-TaskManager
+ctrl + shift + Escape
+    xfce4-taskmanager
+
+>>>>>>> 7c12b6d5a1b19f51a747d9961de7531191aee0ab
 
 #################################################################
 #     SCREENSHOTS
 #################################################################
 
+<<<<<<< HEAD
+=======
+#Scrot
+Print
+    scrot 'ArcoLinux-%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f $$(xdg-user-dir PICTURES)'
+>>>>>>> 7c12b6d5a1b19f51a747d9961de7531191aee0ab
 
 #screeenshooter
 ctrl + Print
