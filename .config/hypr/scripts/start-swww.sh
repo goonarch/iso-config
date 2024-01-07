@@ -14,8 +14,7 @@ fi
 #check for image cache
 image=$(swww query | grep -oP '(?<=image: ).*')
 if [ -z "$image" ]; then
-    #no image in cache, set random from defaults
-    ~/.local/bin/wallpaper
+    swww img $HOME/wal.jpg
 fi
 image=$(swww query | grep -oP '(?<=image: ).*')
 
