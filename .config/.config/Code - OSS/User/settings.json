@@ -1,0 +1,18 @@
+{
+	"editor.useTabStops": false,
+	"editor.tabSize": 4,
+	"editor.renderWhitespace": "all",
+	"editor.insertSpaces": false,
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.colorTheme": "Catppuccin Mocha",
+	"files.autoSave": "afterDelay",
+	"editor.formatOnSave": true,
+	"C_Cpp.default.includePath": [
+		"C:/<PATH>/include"
+	],
+	"cmake.options.statusBarVisibility": "visible",
+	"cmake.configureOnOpen": true,
+	"editor.fontSize": 16,
+	"editor.fontFamily": "'JetBrainsMono NFP', 'monospace'",
+	"git.autofetch": true
+}
